@@ -198,6 +198,12 @@ div.main div.right{
     justify-content: center;
     align-items: center;
 }
+div.main div h1 span{
+    font-size: 38px;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 div.main div h1{
     font-size: 48px;
     font-family: "Madimi One", sans-serif;
@@ -661,6 +667,18 @@ footer a{
 @media screen and (max-width: 1240px) {
     div.main div h1{
         font-size: 35px;
+        
+
+    }
+    div.main div h1 span{
+        font-size: 30px;
+        
+
+    }
+    div.main div p{
+        font-size: 20px;
+        
+
     }
     .about div.main {
         flex-direction: column;
@@ -680,8 +698,18 @@ footer a{
 }    
 @media screen and (max-width: 960px) {
     div.main div h1{
-        font-size: 32px;
+        font-size: 35px;
         
+    }
+    div.main div h1 span{
+        font-size: 28px;
+        
+    }
+    div.main div.left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     #menu-icon{
     display: inline-block;
@@ -824,7 +852,12 @@ header ul.sidebar{
         padding: 20px 40px;
     }
     div.main div h1 {
-        font-size: 26px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    div.main div h1 span {
+        font-size: 25px;
         text-align: center;
     }
     header .right img{
